@@ -1,0 +1,6 @@
+C:\Users\jakub.prusakiewicz\RiderProjects\algorytmy\RMID11\bin\Debug\RMID11.exe
+C:\Users\jakub.prusakiewicz\RiderProjects\algorytmy\RMID11\bin\Debug\RMID11.pdb
+C:\Users\jakub.prusakiewicz\RiderProjects\algorytmy\RMID11\obj\Debug\RMID11.csprojAssemblyReference.cache
+C:\Users\jakub.prusakiewicz\RiderProjects\algorytmy\RMID11\obj\Debug\RMID11.csproj.CoreCompileInputs.cache
+C:\Users\jakub.prusakiewicz\RiderProjects\algorytmy\RMID11\obj\Debug\RMID11.exe
+C:\Users\jakub.prusakiewicz\RiderProjects\algorytmy\RMID11\obj\Debug\RMID11.pdb

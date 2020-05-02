@@ -1,0 +1,5 @@
+C:\Users\jakub.prusakiewicz\RiderProjects\algorytmy\algorytmy\bin\Debug\algorytmy.exe
+C:\Users\jakub.prusakiewicz\RiderProjects\algorytmy\algorytmy\bin\Debug\algorytmy.pdb
+C:\Users\jakub.prusakiewicz\RiderProjects\algorytmy\algorytmy\obj\Debug\algorytmy.csprojAssemblyReference.cache
+C:\Users\jakub.prusakiewicz\RiderProjects\algorytmy\algorytmy\obj\Debug\algorytmy.exe
+C:\Users\jakub.prusakiewicz\RiderProjects\algorytmy\algorytmy\obj\Debug\algorytmy.pdb

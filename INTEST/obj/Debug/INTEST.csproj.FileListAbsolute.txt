@@ -1,0 +1,6 @@
+C:\Users\jakub.prusakiewicz\RiderProjects\algorytmy\INTEST\obj\Debug\INTEST.csprojAssemblyReference.cache
+C:\Users\jakub.prusakiewicz\RiderProjects\algorytmy\INTEST\bin\Debug\INTEST.exe
+C:\Users\jakub.prusakiewicz\RiderProjects\algorytmy\INTEST\bin\Debug\INTEST.pdb
+C:\Users\jakub.prusakiewicz\RiderProjects\algorytmy\INTEST\obj\Debug\INTEST.exe
+C:\Users\jakub.prusakiewicz\RiderProjects\algorytmy\INTEST\obj\Debug\INTEST.pdb
+C:\Users\jakub.prusakiewicz\RiderProjects\algorytmy\INTEST\obj\Debug\INTEST.csproj.CoreCompileInputs.cache

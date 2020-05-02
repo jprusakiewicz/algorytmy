@@ -1,0 +1,5 @@
+C:\Users\jakub.prusakiewicz\RiderProjects\algorytmy\SBANK\bin\Debug\SBANK.exe
+C:\Users\jakub.prusakiewicz\RiderProjects\algorytmy\SBANK\bin\Debug\SBANK.pdb
+C:\Users\jakub.prusakiewicz\RiderProjects\algorytmy\SBANK\obj\Debug\SBANK.csprojAssemblyReference.cache
+C:\Users\jakub.prusakiewicz\RiderProjects\algorytmy\SBANK\obj\Debug\SBANK.exe
+C:\Users\jakub.prusakiewicz\RiderProjects\algorytmy\SBANK\obj\Debug\SBANK.pdb
