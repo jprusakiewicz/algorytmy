@@ -43,7 +43,7 @@ namespace RMID2
         {
             heap[Count] = n;
         }
-        
+
         public T pop()
         {
             var v = top();
@@ -83,54 +83,51 @@ namespace RMID2
     {
         public static void Main()
         {
-            int t = Int32.Parse(Console.ReadLine() ?? throw new Exception()); // number of test cases;
             int n, temp;
-            int nb1;
-            for (int z = 0; z < t; z++)
+            int numberOfTests = Int32.Parse(Console.ReadLine() ?? throw new Exception());
+            for (int z = 0; z < numberOfTests; z++)
             {
-                var maxHeap = new PriorityQueue<int>();
                 var minHeap = new PriorityQueue<int>();
+                var maxHeap = new PriorityQueue<int>();
                 while (true)
                 {
-                    // inp (n);
                     n = Int32.Parse(Console.ReadLine() ?? throw new Exception());
-                    
+
                     if (n == 0)
                         break;
                     if (n == -1)
                     {
-                        Console.WriteLine(maxHeap.top());
-                        maxHeap.pop();
-                        if (maxHeap.Count < minHeap.Count)
+                        Console.WriteLine(minHeap.top());
+                        minHeap.pop();
+                        if (minHeap.Count < maxHeap.Count)
                         {
-                            temp = minHeap.last();
-                            minHeap.delLast(0);
-                            maxHeap.push(temp);
+                            temp = maxHeap.last();
+                            maxHeap.delLast(0);
+                            minHeap.push(temp);
                         }
                     }
                     else
                     {
-                        if (maxHeap.Count == 0 && minHeap.Count == 0)
-                            maxHeap.push(n);
+                        if (minHeap.Count == 0 && maxHeap.Count == 0)
+                            minHeap.push(n);
                         else
                         {
-                            nb1 = maxHeap.top();
-                            if (n >= nb1)
-                                minHeap.push(n);
-                            else
+                            if (n >= minHeap.top())
                                 maxHeap.push(n);
+                            else
+                                minHeap.push(n);
 
-                            if (maxHeap.Count < minHeap.Count)
+                            if (minHeap.Count < maxHeap.Count)
                             {
-                                temp = minHeap.last();
-                                minHeap.delLast(0);
-                                maxHeap.push(temp);
-                            }
-                            else if (maxHeap.Count > minHeap.Count + 1)
-                            {
-                                temp = maxHeap.top();
-                                maxHeap.pop();
+                                temp = maxHeap.last();
+                                maxHeap.delLast(0);
                                 minHeap.push(temp);
+                            }
+                            else if (minHeap.Count > maxHeap.Count + 1)
+                            {
+                                temp = minHeap.top();
+                                minHeap.pop();
+                                maxHeap.push(temp);
                             }
                         }
                     }
